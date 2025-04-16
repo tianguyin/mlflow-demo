@@ -26,7 +26,15 @@ paths:
 ``````
 ``````
 module.exports = { main };
+async function main(input) {
+  return input+'1';
+}
+``````
+``````
+module.exports = { main };
 async function main(cc) {
   return {message: cc};
 }
 ``````
+logic里的就是流 
+
