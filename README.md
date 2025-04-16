@@ -52,3 +52,4 @@ async function main(cc) {
 logic里的就是流 
 可以使用 .\mlflow-? run flow 运行demo。 
 web端口仅输入 input(GET),{"input",data} (POST)
+注意 path 必须和 functions 目录下的path一亿对应 新的.js一定要暴露main函数才能被识别
